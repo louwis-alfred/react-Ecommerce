@@ -17,7 +17,7 @@ Welcome to this open-source e-commerce project built with **React** and **TypeSc
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Technologies (I will be using for development)
 
 - **Frontend**: React, TypeScript, Tailwind CSS
 - **Backend**: Node.js, Express, TypeScript
