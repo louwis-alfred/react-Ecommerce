@@ -1,50 +1,33 @@
-# React + TypeScript + Vite
+# Open Source E-Commerce Project for Beginners (TypeScript)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to this open-source e-commerce project built with **React** and **TypeScript**! This project is designed to help beginners learn how to build a modern e-commerce application using TypeScript, React, and other popular technologies. Whether you're new to TypeScript or looking to improve your skills, this project is a great starting point.
+---
 
-Currently, two official plugins are available:
+## 🚧 Project Status
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**This is an ongoing project**, and I am continuously adding new features and improvements. Stay tuned for updates!
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **TypeScript**: Strongly-typed code for better maintainability and fewer bugs.
+- **React**: A modern frontend library for building user interfaces.
+- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices.
+- **Modular Architecture**: Clean and organized code structure for easy understanding.
+- **Open Source**: Feel free to contribute, fork, or use this project for learning purposes.
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🛠️ Technologies (I will be using for development)
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- **Frontend**: React, TypeScript, Tailwind CSS
+- **Backend**: Node.js, Express, TypeScript
+- **Database**: PostgreSQL
+- **Authentication**: JWT (JSON Web Tokens)
+- **State Management**: React Context API
+- **Routing**: React Router
+- **Build Tool**: Vite
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+---
+## 🌟 Huge Credits to Huxn
+This project is inspired by **Huxn's** frontend design.
+---
